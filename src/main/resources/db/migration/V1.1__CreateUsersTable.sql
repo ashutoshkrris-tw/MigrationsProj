@@ -1,0 +1,5 @@
+CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(63) NOT NULL,
+    address VARCHAR(255)
+);
